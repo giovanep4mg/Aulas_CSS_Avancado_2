@@ -81,10 +81,8 @@ function Menu() {
                         <Route path="/aulas/aula7"  element={<MenuAula7/>}></Route>
                         <Route path="/aulas/aula8"  element={<MenuAula8/>}></Route>    
                     </Routes>        
-                    
                 </div>
             </section>
-                
         </Router>
         </>
     );

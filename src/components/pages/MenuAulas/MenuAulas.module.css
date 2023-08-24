@@ -1,0 +1,20 @@
+/* styles.css */
+
+.menu_algo3 {
+    /* Estilos para a div do menu */
+  }
+  
+  .aula-lista {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .aula-item {
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .aula-item.selected {
+    background-color: #f0f0f0; /* ou outra cor de destaque */
+  }
+  

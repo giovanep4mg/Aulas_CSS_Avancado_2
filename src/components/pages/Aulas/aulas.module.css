@@ -1,0 +1,64 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.toda-pagina{
+
+}
+
+.titulo{
+    font-size: 45px;
+    text-align: center;
+    margin: 0.01rem;
+    padding: 0.05rem;
+    color: blue;
+}
+
+.description{
+    margin: 25px;
+    padding: 15px;
+    border: 2px solid black;
+    padding-top: 0.03rem;
+}
+
+b{
+    color: red;
+}
+
+img{
+    width: -webkit-fill-available;
+    width: 60%;
+}
+
+@media (max-width: 321px){
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    .toda-pagina{
+        font-size: 10px;
+        width: 100%;
+    }
+
+    .titulo{
+        font-size: 21px;
+        
+    }
+    
+    .description{
+        margin: 0px;
+        padding: 4px;
+        border: 2px solid black;
+    }
+    
+    b{
+        color: red;
+    }
+    
+    img{
+        width: -webkit-fill-available;
+        width: 60%;
+    }
+}

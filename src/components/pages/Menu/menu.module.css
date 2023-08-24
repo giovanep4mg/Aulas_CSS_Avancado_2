@@ -1,0 +1,472 @@
+.menu{
+    display: flex;
+    padding-top: 85px;
+}
+
+
+.menu_algo1{
+    display: flex;
+    background-color: #3d3a0f7e;
+    width: 20%;
+    height: 100%;
+    position: fixed;
+    flex-direction: column;
+    align-items: center;
+    top: 53px;
+    left: 0px;
+    padding: 23px;
+    line-height: 50px;
+}
+.menu_algo1 a:hover {
+    color: #dec125;
+    font-size: 25px;
+    
+}
+.menu_algo1 h1{
+    font-size: 40px;
+    text-align: center;
+}
+
+
+.menu_algo2{
+    display: flex;
+    width: 60%;
+    height: 100%;
+    position: fixed;
+    flex-direction: column;
+    align-items: center;
+    top: 53px;
+    left: 20%;
+    right: 20%;
+    max-height: 100%;
+    overflow-y: auto;
+    padding-bottom: 5rem;
+    margin: 10px;
+}
+
+.menu_algo3{
+    display: flex;
+    background-color: #3d3a0fa0;
+    width: 20%;
+    height: 100%;
+    position: fixed;
+    flex-direction: column;
+    align-items: center;
+    top: 53px;
+    right: 0px;
+    line-height: 55px;
+    padding: 20px;
+    overflow-y: scroll;
+    font-size: 19px;
+    font-family: 'Poppins';
+}
+.menu_algo3 a:hover{
+    color: #dec125;
+    font-size: 23px;
+}
+
+
+.header{
+    background-color: #000;
+    border-bottom: 5px solid #f44336;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    padding: 0rem;
+    font-size: 1rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header span{
+    font-size: 2rem;
+    color: #b71c1c;
+    font-weight: 500;
+}
+
+.header a {
+    text-decoration: none;
+    color: #fff;
+    padding-inline: 2rem;
+    display: inline-flex;
+}
+
+.header a:hover {
+    text-decoration: underline;
+    color: #9ae20a;
+    padding-inline: 1.5rem;
+}
+
+
+a{
+    display: block;
+}
+
+
+@media (max-width: 1440px) {
+    .menu{
+        display: flex;
+        padding-top: 85px;
+    }
+    
+    
+    .menu_algo1{
+        width: 25%;
+        top: 53px;
+        padding: 5px;
+        line-height: 50px;
+        font-size: 20px;
+    }
+    .menu_algo1 a:hover {
+        color: #dec125;
+        font-size: 22px;
+        
+    }
+    .menu_algo1 h1{
+        font-size: 30px;
+    }
+    
+    
+    .menu_algo2{
+        width: 53%;
+        top: 50px;
+        left: 25%;
+        margin: 5px;
+    }
+    
+    .menu_algo3{
+        width: 22%;
+        top: 52px;
+        line-height: 75px;
+        padding: 35px;
+        font-size: 25px;
+        padding-bottom: 5rem;
+        padding-left: 50px;
+    }
+    .menu_algo3 a:hover{
+        color: #dec125;
+        font-size: 27px;
+    }
+
+    .header{
+        font-size: 2.0rem;
+    }
+    
+    .header span{
+        font-size: 30px;
+    }
+    
+    .header a {
+        text-decoration: none;
+        color: #fff;
+        padding-inline: 2rem;
+        display: inline-flex;
+    }
+    
+    .header a:hover {
+        text-decoration: underline;
+        color: #9ae20a;
+        padding-inline: 1.5rem;
+    }
+    
+    
+    a{
+        display: block;
+    }
+}
+
+
+@media (max-width: 769px) {
+    .menu{
+        display: flex;
+        padding-top: 85px;
+    }
+    
+    
+    .menu_algo1{
+        width: 25%;
+        top: 101px;
+        padding: 5px;
+        line-height: 45px;
+        font-size: 14px;
+        padding-left: 10px;
+    }
+    .menu_algo1 a:hover {
+        color: #dec125;
+        font-size: 15px;
+        
+    }
+    .menu_algo1 h1{
+        font-size: 30px;
+    }
+    
+    
+    .menu_algo2{
+        width: 52%;
+        top: 100px;
+        left: 25%;
+        margin: 5px;
+    }
+    
+    .menu_algo3{
+        width: 24%;
+        top: 101px;
+        line-height: 58px;
+        font-size: 17px;
+        padding-right: 19px;
+    }
+    .menu_algo3 a:hover{
+        color: #dec125;
+        font-size: 19px;
+    }
+    
+    .header span{
+        font-size: 30px;
+    }
+    
+    .header a {
+        text-decoration: none;
+        color: #fff;
+        padding-inline: 2rem;
+        display: inline-flex;
+    }
+    
+    .header a:hover {
+        text-decoration: underline;
+        color: #9ae20a;
+        padding-inline: 1.5rem;
+    }
+    
+    
+    a{
+        display: block;
+    }
+}
+
+
+@media (max-width: 426px) {
+    .menu{
+        display: flex;
+        padding-top: 85px;
+    }
+    
+    
+    .menu_algo1{
+        width: 28%;
+        top: 78px;
+        padding: 5px;
+        line-height: 33px;
+        font-size: 13px;
+        padding-left: 10px;
+    }
+    .menu_algo1 a:hover {
+        color: #dec125;
+        font-size: 15px;
+        
+    }
+    .menu_algo1 h1{
+        font-size: 30px;
+    }
+    
+    
+    .menu_algo2{
+        display: flex;
+        width: 71%;
+        top: 75px;
+        left: 27%;
+        margin: 7px;
+    }
+    
+    .menu_algo3{
+        display: none;
+    }
+    .menu_algo3 a:hover{
+        color: #dec125;
+        font-size: 15px;
+    }
+    
+    
+    .header{
+        font-size: 18px;
+        flex-direction: column;
+    
+    }
+    
+    .header span{
+        font-size: 30px;
+    }
+    
+    .header a {
+        text-decoration: none;
+        color: #fff;
+        padding-inline: 2rem;
+        display: inline-flex;
+    }
+    
+    .header a:hover {
+        text-decoration: underline;
+        color: #9ae20a;
+        padding-inline: 1.5rem;
+    }
+    
+    
+    a{
+        display: block;
+    }
+}
+
+
+@media (max-width: 376px) {
+    .menu{
+        display: flex;
+        padding-top: 85px;
+    }
+    
+    
+    .menu_algo1{
+        display: flex;
+        width: 30%;
+        top: 55px;
+        padding: 5px;
+        line-height: 34px;
+        font-size: 10px;
+        padding-left: 15px;
+    }
+    .menu_algo1 a:hover {
+        color: #dec125;
+        font-size: 17px;
+        
+    }
+    .menu_algo1 h1{
+        font-size: 30px;
+    }
+    
+    
+    .menu_algo2{
+        display: flex;
+        width: 66%;
+        top: 53px;
+        left: 30%;
+        margin: 7px;
+    }
+    
+    .menu_algo3{
+        display: none;
+    }
+    .menu_algo3 a:hover{
+        color: #dec125;
+        font-size: 15px;
+    }
+    
+    
+    .header{
+        border-bottom: 3px solid #f44336;
+        display: flex;
+        font-size: 11px;
+        align-items: center;
+        flex-direction: column;
+    
+    }
+    
+    .header span{
+        font-size: 24px;
+    }
+    
+    .header a {
+        text-decoration: none;
+        color: #fff;
+        padding-inline: 2rem;
+        display: inline-flex;
+    }
+    
+    .header a:hover {
+        text-decoration: underline;
+        color: #9ae20a;
+        padding-inline: 1.5rem;
+    }
+    
+    
+    a{
+        display: block;
+    }
+}
+
+@media (max-width: 321px) {
+    .menu{
+        display: flex;
+        padding-top: 85px;
+    }
+    
+    
+    .menu_algo1{
+        display: flex;
+        width: 32%;
+        top: 55px;
+        padding: 5px;
+        line-height: 34px;
+        font-size: 10px;
+        padding-left: 15px;
+    }
+    .menu_algo1 a:hover {
+        color: #dec125;
+        font-size: 17px;
+        
+    }
+    .menu_algo1 h1{
+        font-size: 30px;
+    }
+    
+    
+    .menu_algo2{
+        display: flex;
+        width: 68%;
+        top: 50px;
+        left: 30%;
+        margin: 7px;
+        padding: 5px;
+    }
+    
+    .menu_algo3{
+        display: none;
+    }
+    .menu_algo3 a:hover{
+        color: #dec125;
+        font-size: 15px;
+    }
+    
+    
+    .header{
+        border-bottom: 3px solid #f44336;
+        display: flex;
+        font-size: 11px;
+        align-items: center;
+        flex-direction: column;
+    
+    }
+    
+    .header span{
+        font-size: 24px;
+    }
+    
+    .header a {
+        text-decoration: none;
+        color: #fff;
+        padding-inline: 2rem;
+        display: inline-flex;
+    }
+    
+    .header a:hover {
+        text-decoration: underline;
+        color: #9ae20a;
+        padding-inline: 1.5rem;
+    }
+    
+    
+    a{
+        display: block;
+    }
+}
+
+
+
